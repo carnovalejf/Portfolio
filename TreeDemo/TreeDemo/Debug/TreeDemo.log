@@ -1,0 +1,30 @@
+﻿  Main.cpp
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(48,19): warning C4018: '<': signed/unsigned mismatch
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(22): message : while compiling class template member function 'void QuadTree<int>::InsertNode(CoordNode<T> *)'
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(22): message :         with
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(22): message :         [
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(22): message :             T=int
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(22): message :         ]
+C:\College\InternDemo\TreeDemo\TreeDemo\Main.cpp(38): message : see reference to function template instantiation 'void QuadTree<int>::InsertNode(CoordNode<T> *)' being compiled
+C:\College\InternDemo\TreeDemo\TreeDemo\Main.cpp(38): message :         with
+C:\College\InternDemo\TreeDemo\TreeDemo\Main.cpp(38): message :         [
+C:\College\InternDemo\TreeDemo\TreeDemo\Main.cpp(38): message :             T=int
+C:\College\InternDemo\TreeDemo\TreeDemo\Main.cpp(38): message :         ]
+C:\College\InternDemo\TreeDemo\TreeDemo\Main.cpp(20): message : see reference to class template instantiation 'QuadTree<int>' being compiled
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(134,21): warning C4018: '<': signed/unsigned mismatch
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(121): message : while compiling class template member function 'void QuadTree<int>::Divide(void)'
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(54): message : see reference to function template instantiation 'void QuadTree<int>::Divide(void)' being compiled
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(7): message : while compiling class template member function 'QuadTree<int>::QuadTree(std::vector<float,std::allocator<_Ty>>,std::vector<_Ty,std::allocator<_Ty>>)'
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(7): message :         with
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(7): message :         [
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(7): message :             _Ty=float
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(7): message :         ]
+C:\College\InternDemo\TreeDemo\TreeDemo\Main.cpp(20): message : see reference to function template instantiation 'QuadTree<int>::QuadTree(std::vector<float,std::allocator<_Ty>>,std::vector<_Ty,std::allocator<_Ty>>)' being compiled
+C:\College\InternDemo\TreeDemo\TreeDemo\Main.cpp(20): message :         with
+C:\College\InternDemo\TreeDemo\TreeDemo\Main.cpp(20): message :         [
+C:\College\InternDemo\TreeDemo\TreeDemo\Main.cpp(20): message :             _Ty=float
+C:\College\InternDemo\TreeDemo\TreeDemo\Main.cpp(20): message :         ]
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(151,21): warning C4018: '<': signed/unsigned mismatch
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(167,21): warning C4018: '<': signed/unsigned mismatch
+C:\College\InternDemo\TreeDemo\TreeDemo\QuadTree.tpp(180,21): warning C4018: '<': signed/unsigned mismatch
+  TreeDemo.vcxproj -> C:\College\InternDemo\TreeDemo\Debug\TreeDemo.exe
