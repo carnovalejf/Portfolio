@@ -174,7 +174,7 @@ StyleCopReport.xml
 *_p.c
 *_h.h
 *.ilk
-*.meta
+#*.meta
 *.obj
 *.iobj
 *.pch
@@ -476,3 +476,7 @@ ASALocalRun/
 *.exe
 *.out
 *.app
+
+#videos
+*.mp4
+*.mov
